@@ -1,0 +1,9 @@
+dataset/a.txt:w,1
+dataset/b.txt:r,1
+dataset/c.txt:w,1
+dataset/d.txt:w,1
+dataset/e.txt:w,1
+dataset/f.txt:r,1
+dataset/g.txt:r,1
+dataset/h.txt:w,1
+dataset/i.txt:r,1

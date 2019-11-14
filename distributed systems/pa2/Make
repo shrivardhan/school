@@ -1,0 +1,5 @@
+thrift --gen java HostClientService.thrift
+thrift --gen java HostService.thrift
+thrift --gen java SuperNodeClientService.thrift
+thrift --gen java SuperNodeHostService.thrift
+javac -cp ".:/usr/local/Thrift/*" ./gen-java/*.java *.java -d .

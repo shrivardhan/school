@@ -1,0 +1,5 @@
+thrift --gen java FileService.thrift
+thrift --gen java QuorumService.thrift
+thrift --gen java VersionService.thrift
+javac -cp ".:/usr/local/Thrift/*" ./gen-java/*.java *.java -d .
+

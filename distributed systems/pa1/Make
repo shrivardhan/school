@@ -1,0 +1,4 @@
+thrift --gen java ComputeNode.thrift
+thrift --gen java Server.thrift
+javac -cp ".:/usr/local/Thrift/*" ./gen-java/*.java *.java -d .
+

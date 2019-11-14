@@ -1,0 +1,5 @@
+readQuorum=4
+writeQuorum=4
+CoordinatorPort=8080
+CoordinatorIp=csel-kh4250-09.cselabs.umn.edu
+servers=csel-kh4250-08.cselabs.umn.edu:9000,csel-kh4250-09.cselabs.umn.edu:9001,csel-kh4250-10.cselabs.umn.edu:9002,csel-kh4250-08.cselabs.umn.edu:9001,csel-kh4250-09.cselabs.umn.edu:9000,csel-kh4250-10.cselabs.umn.edu:9001,csel-kh4250-08.cselabs.umn.edu:9002
