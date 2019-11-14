@@ -1,4 +1,0 @@
-csel-kh4240-05.cselabs.umn.edu
-csel-kh4240-06.cselabs.umn.edu
-csel-kh4240-08.cselabs.umn.edu
-csel-kh4240-09.cselabs.umn.edu
