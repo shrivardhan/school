@@ -1,6 +1,0 @@
-dataset/a.txt:w,2
-dataset/a.txt:r,3
-dataset/a.txt:w,1
-dataset/a.txt:r,4
-dataset/a.txt:w,2
-dataset/a.txt:r,1
