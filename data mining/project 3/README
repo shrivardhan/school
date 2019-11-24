@@ -1,0 +1,27 @@
+Decision trees and Random forests in python.
+
+Langugage: python 2.7
+
+To run decision trees -
+python dtinduce.py <trainfile> <minFreq> <modelFile>
+python dtclassify.py <modelFile> <trainFile> <predictionsFile>
+python showconfmatrix.py <precitionsFile>
+
+Example to run decision trees - 
+python dtinduce.py ./data/rep2/train.csv 1 modelfile
+python dtclassify.py modelfile ./data/rep2/test.csv predictions
+python showconfmatrix.py predictions 
+
+
+To run random forests - 
+python rf.py <trainfile> <minFreq>
+python rfmerge.py <trainFile> <predictionsFile>
+python showconfmatrix.py <predictionsFile>
+
+
+Example to run derandom forest
+python rf.py ./data/rep2/train.csv 10
+python rfmerge.py ./data/rep2/test.csv predictions
+
+
+
